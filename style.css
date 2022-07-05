@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: 0.8ms;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    height: 669px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), #121212), url(images/hero-banner-donation.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    width: 826px;
+    margin: 0;
+    align-items: center;
+}
+
+.hero-tex-header {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-para {
+    color: white;
+    text-align: center;
+}
+
+.link-btn {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FF5959;
+    padding: 16px 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    position: absolute;
+
+}
+
+.body-h1 {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.amount-box {
+    background-color: #FAFAFA;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.amount {
+    margin: 11px;
+}
+
+.amount-box-highlight {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.all-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.amount-input p {
+    color: #B3B3B3;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 0px 0px 9px 0px;
+    max-width: 765px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-head {
+    color: #121212;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.food {
+    color: #707070;
+    background-color: rgba(78, 159, 166, 0.10);
+    text-align: left;
+    padding: 60px 30px;
+    max-width: 360px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.shelter {
+    color: #707070;
+    background-color: rgba(255, 89, 89, 0.1);
+    text-align: left;
+    padding: 60px 30px;
+    max-width: 360px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.education {
+    color: #707070;
+    background-color: #FFF4D6;
+    text-align: left;
+    padding: 60px 30px;
+    max-width: 360px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+/* Footer Section Style */
+.custom-footer {
+    background-color: #0B0D17;
+    padding: 43px 0px 42px 0px;
+}
+
+.site-name {
+    color: #FF5959;
+    font-size: 36px;
+    text-align: center;
+}
+
+.custom-footer p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
