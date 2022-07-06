@@ -41,7 +41,7 @@ body {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     background-color: #FF5959;
     padding: 16px 12px;
     border-radius: 5px;
@@ -52,11 +52,11 @@ body {
 
 }
 
-.input-link-btn {
+* .input-link-btn {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     background-color: #FF5959;
     padding: 16px 12px;
     border-radius: 5px;
@@ -69,13 +69,30 @@ body {
 .body-h1 {
     text-align: center;
     padding-top: 130px;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
 }
 
 .amount-box {
     background-color: #FAFAFA;
     padding: 60px;
     border-radius: 5px;
+}
+
+.other-amount[type=text],
+select {
+    width: 950px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #DADADA;
+    color: #B3B3B3;
+    text-align: center;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.other-amount {
+    border: none;
 }
 
 .amount {
@@ -145,7 +162,52 @@ body {
     border-radius: 5px;
 }
 
-/* Footer Section Style */
+/* Subscription Style */
+.subscription-section {
+    padding: 60px 100px;
+}
+
+h1 {
+    color: #121212;
+    text-align: center;
+}
+
+.subs-para {
+    text-align: center;
+    color: #707070;
+}
+
+.box {
+    background-color: antiquewhite;
+    padding: 50px 188px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+
+}
+
+.send {
+    color: white;
+    border: none;
+    background-color: #FF5959;
+    padding: 20px 30px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mail-address {
+    color: #AA9F9F;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* Footer Design */
 .custom-footer {
     background-color: #0B0D17;
     padding: 43px 0px 42px 0px;
