@@ -72,6 +72,10 @@ body {
     padding-bottom: 70px;
 }
 
+.body-h1 p {
+    color: #707070;
+}
+
 .amount-box {
     background-color: #FAFAFA;
     padding: 60px;
@@ -160,6 +164,58 @@ select {
     max-width: 360px;
     margin: 12px;
     border-radius: 5px;
+}
+
+/* Recent Causes */
+.causes-box {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.causes-para {
+    color: #707070;
+    text-align: center;
+}
+
+.causes-section {
+    max-width: 350px;
+    box-shadow: 0px 12px 10px #b6b6b6;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.causes-content {
+    padding: 30px;
+}
+
+.causes-content h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #707070;
+}
+
+.causes-content p {
+    color: #707070;
+    padding: 10px 0px 10px;
+}
+
+.readmore-btn {
+    color: white;
+    border: none;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-btn a {
+    color: white;
+
+    text-decoration: none;
+
 }
 
 /* Subscription Style */
